@@ -1,11 +1,10 @@
-# ZigBee IoT Sensor Network with MQTT Integration and Web Dashboard
+# ZigBee IoT Sensor Network with MQTT Integration
 
-This project implements a ZigBee-based IoT sensor network that collects data from various devices (End-Device) and displays it on a web dashboard. The system uses the MQTT protocol for communication between devices and a central ZigBee hub. 
+This project implements a ZigBee-based IoT sensor network that collects data from various devices (End-Device). The system uses the MQTT protocol for communication between devices and a central ZigBee hub. 
 
 ## Features
 - **ZigBee Communication**: Collects sensor data from ZigBee-based devices and sends it to a central hub.
 - **MQTT Integration**: Uses MQTT protocol for reliable message transmission between the End-Device and the hub.
-- **Web Dashboard**: Provides real-time monitoring and control of devices via a web-based interface.
 
 ## Project Setup
 
@@ -28,19 +27,14 @@ This project implements a ZigBee-based IoT sensor network that collects data fro
 2. Use serial communication (e.g., MobaXterm or Putty) to access the hub terminal and set up MQTT2ZigBee.
 3. Configure the network and install necessary software (e.g., MQTT2ZigBee firmware) on the hub.
 
-#### B. **Programming the Device-End**:
+#### B. **Programming the End-Device**:
 1. Download PTVO software and create custom firmware for the End-Device (e.g., controlling a sensor like an LED or switch).
 2. Use the USB-to-TTL converter to program the End-Device using serial programming methods.
 3. Pair the Device-End with the ZigBee Hub using the MQTT2ZigBee configuration.
 
-#### C. **Setting up the Web Dashboard**:
-1. Deploy the web-based dashboard on the Linux Hub.
-2. Use MQTT protocol to link the dashboard with the ZigBee Hub for real-time device control and monitoring.
-3. Access the dashboard via a web browser on your computer or mobile device.
 
 ## Technologies Used:
 - **ZigBee** for wireless communication
 - **MQTT** protocol for device messaging
 - **Linux** for the ZigBee Hub's operating system
-- **Web technologies** for dashboard display (e.g., HTML, JavaScript)
 
