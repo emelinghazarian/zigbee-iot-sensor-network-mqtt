@@ -14,7 +14,10 @@ This project implements a ZigBee-based IoT sensor network that collects data fro
 - USB-to-TTL Converter for programming
 - Linux-based Hub (with SD card containing the Linux OS)
 - Network cable (for internet connection)
-  
+
+![zig1](https://github.com/user-attachments/assets/1b16fb59-91a3-4070-81cc-3c6f319972f8)
+
+
 ### 2. **Software Requirements**:
 - **MQTT2ZigBee**: Installed on the ZigBee Hub for communication.
 - **MobaXterm or Putty**: For SSH communication with the Linux hub.
@@ -26,6 +29,9 @@ This project implements a ZigBee-based IoT sensor network that collects data fro
 1. Connect the ZigBee Hub to the Linux-based device via USB-to-TTL converter.
 2. Use serial communication (e.g., MobaXterm or Putty) to access the hub terminal and set up MQTT2ZigBee.
 3. Configure the network and install necessary software (e.g., MQTT2ZigBee firmware) on the hub.
+
+![zig2](https://github.com/user-attachments/assets/f5ff7d1d-cbb8-4838-a42b-ced4f561e23a)
+
 
 #### B. **Programming the End-Device**:
 1. Download PTVO software and create custom firmware for the End-Device (e.g., controlling a sensor like an LED or switch).
